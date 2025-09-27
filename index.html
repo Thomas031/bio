@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-</div>
-</section>
-
-
-<!-- PARCOURS ------------------------------------------------------------->
-<section id="parcours" class="section">
 <div class="container">
 <div class="card">
 <h2>Parcours</h2>
@@ -43,15 +37,16 @@
 </label>
 <div class="form-row">
 <button type="submit" class="btn primary">Envoyer</button>
-<span class="form-hint">Ou écris‑moi sur Discord : <strong>{{@TonPseudo}}</strong></span>
+<a class="btn" href="https://discord.gg/SAaB3rsQvh" target="_blank" rel="noopener">👉 Rejoindre le Discord</a>
 </div>
+<p class="form-hint">Ou écris‑moi sur Discord : <strong>dark_pivaxx9967</strong></p>
 </form>
 <div class="card">
 <h2>Réseaux & liens</h2>
 <ul class="links">
-<li><a href="{{https://discord.gg/ton-invite}}" target="_blank" rel="noopener">Serveur Discord</a></li>
-<li><a href="{{https://github.com/ton-projet}}" target="_blank" rel="noopener">GitHub du projet</a></li>
-<li><a href="mailto:{{ton.email@exemple.fr}}">Email direct</a></li>
+<li><a href="https://discord.gg/SAaB3rsQvh" target="_blank" rel="noopener">Serveur Discord</a></li>
+<li><a href="#" target="_blank" rel="noopener">GitHub du projet</a></li>
+<li><a href="#contact">Formulaire / Mail</a></li>
 </ul>
 <p class="muted">Les données du formulaire ouvrent votre logiciel mail (<code>mailto:</code>), aucun stockage côté serveur.</p>
 </div>
@@ -62,7 +57,7 @@
 
 <footer class="site-footer">
 <div class="container foot">
-<small>© <span id="year"></span> Deviens Hôtelier & Restaurateur — par {{Thomas Pierrot}}. Tous droits réservés.</small>
+<small>© <span id="year"></span> Deviens Hôtelier & Restaurateur — par Thomas Pierrot. Tous droits réservés.</small>
 <a class="backtotop" href="#top">↑ Haut de page</a>
 </div>
 </footer>
@@ -70,4 +65,27 @@
 
 <script src="script.js"></script>
 </body>
+</html>
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Deviens Hôtelier & Restaurateur — Présentation du créateur</title>
+<meta name="description" content="Autobiographie de {{Ton nom}} — créateur du projet Deviens Hôtelier & Restaurateur. Parcours, mission, valeurs et moyens de contact." />
+<meta name="color-scheme" content="dark light">
+<meta property="og:title" content="Deviens Hôtelier & Restaurateur — Présentation" />
+<meta property="og:description" content="Autobiographie de {{Ton nom}} — créateur du projet Deviens H&R." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="images/cover.jpg" />
+<link rel="icon" href="favicon.ico" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header" data-elevate>
+<div class="container nav">
+<a class="brand" href="#top" aria-label="Accueil Deviens Hôtelier & Restaurateur">
+<span class="logo" aria-hidden="true"></span>
+<span class="brand-name">Deviens H&R</span>
 </html>
